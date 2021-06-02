@@ -1,0 +1,169 @@
+      Scanner ler = new Scanner(System.in);
+        /*double numero1 = ler.nextInt();
+        double numero2 = ler.nextInt();
+        double soma = numero1 + numero2;
+        System.out.printf("Soma %.2f", soma);
+
+        double raio = ler.nextDouble();
+        double area = 3.14159 * Math.pow(raio,2);
+        System.out.printf("Área %.4f", area);
+
+        int a, b, c, d;
+        a = ler.nextInt();
+        b = ler.nextInt();
+        c = ler.nextInt();
+        d = ler.nextInt();
+
+        int diferenca = a * b - d * c;
+
+        System.out.printf("Diferença %d", diferenca);
+        */
+        /*
+
+         int numero = ler.nextInt();
+
+        double horasTrabalhadas = ler.nextDouble();
+
+        double valorHora = ler.nextDouble();
+        double salario = valorHora * horasTrabalhadas;
+        System.out.printf("Funcionário: %d - Salário R$ %.2f", numero, salario);
+
+
+        * Fazer um programa que leia o número de um funcionário, seu número de horas trabalhadas,
+        * o valor que recebe por
+hora e calcula o salário desse funcionário. A seguir, mostre o número e o salário do
+* funcionário, com duas casas
+decimais.
+        *
+        *
+        *
+        *
+        * Fazer um programa para ler o código de uma peça 1, o número de peças 1,
+        * o valor unitário de cada peça 1, o
+código de uma peça 2, o número de peças 2 e o valor unitário de cada peça 2.
+* Calcule e mostre o valor a ser pago.
+        * */
+ /*
+       int peca1 = ler.nextInt();
+       int qtd1 = ler.nextInt();
+       double valor = ler.nextDouble();
+
+        int peca2 = ler.nextInt();
+        int qtd2 = ler.nextInt();
+        double valor2 = ler.nextDouble();
+
+        double total = valor * qtd1 + valor2 * qtd2;
+
+        System.out.printf("Valor a pagar R$ %.2f", total);
+
+
+
+
+        Scanner ler = new Scanner(System.in);
+
+        String x;
+        int y;
+        double z;
+        x = ler.next();
+        y = ler.nextInt();
+        z = ler.nextDouble(); // todos os comandos de entrada em uma única linha ex: Maria 30 4,5
+        System.out.printf("dados digitados:%n%s - %d - %.2f", x, y, z);
+        Scanner ler = new Scanner(System.in); // aloca espaço na memória para o objeto de leitura de teclado
+        // comando de leitura / entrada de dados vão aqui
+        String x;
+        x = ler.next();
+        System.out.println(x);
+        int numero = ler.nextInt();
+        System.out.println(numero);
+
+        double flutuante = ler.nextDouble();
+        System.out.println(flutuante);
+
+        char letra = ler.next().charAt(0);
+        System.out.println(letra);
+        ler.close(); // desalocar a memória do objeto de leitura de entrada de dados
+
+
+
+        int a, b;
+        a = 2;
+        b = 9;
+
+        double variavel = (double) b / a; //casting
+        System.out.println(variavel);
+
+        int B = 8;
+        int b = 6;
+        int h = 5;
+        float a = 5f; // sempre colocar a letra f para atribuir valores em variável float
+
+        double area = (b + B) / 2 * h;
+        System.out.println(area);
+
+        //atribuição [=]
+        //<variavel> = <expressao>; lê-se "recebe"
+        int x, y;
+        x = 5;
+        y = 2 * x;
+
+        System.out.println(x);
+        System.out.println(y);
+
+
+        //concatenar mais de uma frase
+
+        //System.out.println("Resultado " + 10 + " metros");
+        //System.out.printf("Resultado = %d metros%n", 10);
+        String nome = "Maria";
+        int idade = 31;
+        double renda = 4000.0;
+
+        System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome, idade, renda);
+
+
+        Locale.setDefault(Locale.US); // para definir o ponto como separador decimal
+
+        double x = 10.35784;
+
+        System.out.println(x);
+        System.out.printf("%.2f%n", x); // %n quebra de linha (independente de plataforma)
+        System.out.printf("%.4f%n", x);
+
+        int y = 32;
+        System.out.println(y);
+        System.out.println('\u0061' == 'a'); true
+
+        System.out.print("Olá mundo sem quebra de linha");
+        System.out.println("Olá mundo com quebra de linha");
+*/
+
+        int x = 7;
+        String dia;
+
+        switch (x){
+            case 1:
+                dia = "Domingo";
+                break;
+            case 2:
+                dia = "Segunda";
+                break;
+            case 3:
+                dia = "Terça";
+                break;
+            case 4:
+                dia = "Quarta";
+                break;
+            case 5:
+                dia = "Quinta";
+                break;
+            case 6:
+                dia = "Sexta";
+                break;
+            case 7:
+                dia = "Sábado";
+                break;
+            default:
+                dia = "Inválido";
+                break;
+        }
+        System.out.println(dia);

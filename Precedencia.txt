@@ -1,0 +1,24 @@
+Ordem de Precedência em java:
+
+1º [*] ou [/] ou [%]
+2º [+] ou [-]
+Sobre todos [()] entre parêntesis
+
+Operadores aritméticos em java:
+
+[+] = adição
+[-] = subtração
+[*] = multiplicação
+[/] = divisão
+[%] = resto da divisão ("mod")
+
+Exemplos de expressões aritméticas:
+
+2 * 6 / 3 = 4
+3 + 2 * 4 = 11
+(3 + 2) * 4 = 20
+60 / (3 + 2) * 4 = 48
+60 / ((3 + 2) * 4) = 3
+14 % 3 = 2 => 14 / 3 = 4 e tem resto 2 = [3 * 4 + 2 = 14]
+19 % 5 = 4 => 19 / 5 = 3 e tem resto 4 = [3 * 5 + 4 = 15]
+
